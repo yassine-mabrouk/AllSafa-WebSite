@@ -1,0 +1,514 @@
+
+
+.navbar-default .navbar-nav > li > a {
+    color:black;
+    margin-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color:red;
+    background-color: #e7e7e7;
+}
+.navbar-nav {
+    min-height: 70px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: red;
+    
+    background-color: #e7e7e7;
+}
+
+
+
+.dropdown-menu .divider{
+    background-color: rgb(165, 87, 87);
+}
+
+.dropdown-menu  {
+    border-top:3px solid red;
+    min-width: 200px;
+    padding: 2px;   
+}
+
+ 
+ .navbar-right .dropdown-menu {
+    right: auto; 
+    left: 0;   
+} 
+
+.dropdown-menu > li >  a{
+    padding:  6px 20px;
+    color: black;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;  
+    
+}
+.dropdown-menu > li >  a:hover{
+   background-color: red;
+    padding-left:28px ;  
+   
+}
+
+.navbar-default .navbar-brand {
+    color: #777;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    min-height: 70px;
+    font-size: 26px;
+    line-height: 26px; /*center par height */
+}
+/* nom du web set premier nom  */
+.navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: black;
+}
+.navbar-default .navbar-brand span{
+    color: red;
+
+}
+/*navbar toogle */
+.navbar-toggle{
+  margin-top: 18px;
+  
+}
+/* =========stayling carousoul===========  */
+/* les images du carousol  */
+.img-responsive, .thumbnail > img,
+ .thumbnail a > img, .carousel-inner > 
+ .item > img, .carousel-inner > .item > a > img {
+    height: 400px;
+    margin: auto;
+    width: 100%;
+
+}
+
+.carousel-caption{
+    display:inline-block;
+    bottom:70px;
+    background: rgba(4, 3, 3, 0.6);
+     padding-left:20px ;   
+     padding-right:20px ;  
+     border-radius: 12px;
+     margin: 40px auto;
+}
+/*les point de mouvement */
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border:1px solid #eee ;
+}
+/*le point active des mouvement */
+ #myslide .carousel-indicators .active {
+    width: 17px;
+    height: 17px;
+    background-color:red;
+}
+
+/*==============start style  section */
+.about{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about .lead {
+    color:black;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.about h1 ,.about h3 {
+ font-weight: bold;
+}
+.about h1 span,.about h3 span{
+    color:red;
+}
+/*start styles features*/
+.features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EEE;
+
+}
+.features i :hover{
+    background-color: rgb(170, 223, 170);
+}
+
+.features h1{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.features h4{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.features .feat p{
+    line-height: 2em;
+    margin-left: 24px;
+    margin-bottom: 30px;
+}
+
+.features .feat span.glyphicon {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #444;
+
+}
+/* ===================start style  testimonials carousel 2============= */
+.testimonials{
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+.testimonials h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.testimonials .lead{
+    line-height: 2em;  
+   
+}
+.testimonials .carousel-inner span{
+    font-size: 18px;
+    font-weight: bold;
+    color:red;
+}
+.testimonials .carousel-inner{
+  min-height: 160px;
+}
+/* style les icone de mouvement de commnetaire  */
+.testimonials .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin:auto ; 
+    border-radius:10px;
+}
+.testimonials .carousel-indicators li {
+    text-indent: 0px;
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+    opacity: 0.4;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden; 
+    transition: all 1s ease ; 
+
+}
+#carousel-testimonials .carousel-indicators .active {
+    opacity: 1; /*pour distinger active */
+    background-color:none;
+    
+    width: 80px;
+    height: 80px;  
+}
+
+.testimonials .carousel-indicators li img{
+    width: 100%;
+    height: 100%;   
+}
+/* =====================start style price table==========  */
+.price-table{
+    background-color: #EEE;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.price-table h1{
+    margin-bottom: 30px;
+}
+.price-table .price-box{
+    -webkit-transition-duration:0.7s ;/*pour animation css3*/
+    -moz-transition-duration:0.7s;
+    -o-transition-duration:0.7s;
+     transition-duration:0.7s;
+
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 15px;
+}
+.price-table .price-box:hover{
+    -webkit-transform:scale(1.09,1.09) ;
+    -o-transform:scale(1.09,1.09);
+    -moz-transform:scale(1.09,1.09) ;
+      transform:scale(1.09,1.09) translateX(-5px);
+     
+}
+
+.price-table .price-box h2{
+    margin: 5px 0 60px ;
+    
+}
+
+
+ /* ==================star section Our team =============== */
+ .our-team {
+     background: url(../images/background.jpg) no-repeat center center fixed; 
+     min-height: 600px; 
+     background-size: cover; 
+     -webkit-background-size: cover;
+     -o-background-size: cover;
+     -moz-background-size: cover;  
+    }
+.our-team .team{
+    background: rgba(4, 3, 3, 0.8);
+    min-height: 600px; 
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    color: white;
+}
+.our-team h1{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.our-team .team img {
+    width: 50%;
+    -webkit-transition-duration:0.7s ;
+   -moz-transition-duration:0.7s;
+   -o-transition-duration:0.7s;
+    transition-duration:0.7s;
+    clip-path: circle(); 
+}
+.our-team .team img:hover{
+   
+    -webkit-transform:scale(1.09,1.09) ;
+    -o-transform:scale(1.09,1.09);
+    -moz-transform:scale(1.09,1.09) ;
+      transform:scale(1.09,1.09) ;
+      margin-bottom: 20px;
+}
+.our-team .team .person {
+    margin: 20px;
+}
+.our-team .team .person i {
+    margin:6px;
+    color: rgb(207, 204, 204);
+    -webkit-transition-duration:0.7s ;
+    -moz-transition-duration:0.7s;
+    -o-transition-duration:0.7s;
+     transition-duration:0.7
+     
+
+}
+.our-team .team .person i:hover {
+    margin:6px;
+    color: white;
+    -webkit-transform:scale(1.07,1.07) ;
+    -o-transform:scale(1.09,1.09);
+    -moz-transform:scale(1.09,1.09) ;
+      transform:scale(1.3,1.3) ;
+}
+
+
+/* ==========start section subscribe  ==========*/
+.subscribe{
+
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-color: #EEE;
+} 
+.subscribe h2{
+    color: rgb(119, 110, 110);
+    letter-spacing: 2px;/* espace entre le lettre */
+}
+.subscribe i{
+    color: rgb(110, 102, 102);
+}
+.subscribe p{
+margin-bottom: 30px;
+color: rgb(110, 102, 102);
+}
+
+.subscribe :hover .head i{
+   color: black;
+   font-weight: bold;
+}
+.subscribe :hover .head h2 {
+    color: black;
+    font-weight: bold;
+ }
+ .subscribe :hover .head p {
+    color: black;
+    
+ }
+.subscribe .form-control {
+width: 300px;
+margin-right:-5px ;
+border-radius: 0px;
+}.subscribe .btn {
+    border-radius: 0px;
+}
+/* ==========start section statitistique   ==========*/
+.static{
+    background: rgb(236, 233, 233);
+   min-height: 300px;
+   transition: all 1s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -webkit-transition: all 0.5s ease-in-out;
+   margin-top: 5px;
+   
+}
+.static .stat {
+    margin-bottom: 30px;
+}
+.static :hover .stat {
+   color:white;
+}
+
+.static h1{
+    margin-bottom: 40px;
+    color: white;
+}
+.static .data{
+    color: rgb(206, 194, 194);
+    background-color: rgba(2, 2,2,0.7);
+    min-height: 300px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.static p {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 2px;
+   
+
+}
+.static span {
+    font-size: 16px;
+}
+.skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 16px;
+  }
+  .skills h1{
+      margin-bottom: 40px;
+  }
+  .skills h3{
+      margin-top: 0px;
+      font-weight: bold;
+  }
+  .skills .progress{
+      height: 30px;
+  }
+  .skills .progress .progress-bar{
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: bold;
+      text-indent: 10px;/*fair une espace debut  */
+      text-align: left;   
+  }
+/* <!-- ======================start section contact============  --> */
+.contact-us{
+    background: url(../images/contact-us.jpg) no-repeat center center fixed;
+    min-height: 300px;
+    
+    background-size: cover; 
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    margin-top:30px ;
+}
+.contact-us .contact{
+    color: rgb(206, 194, 194);
+    background-color: rgba(2, 2,2,0.7);
+    min-height: 300px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.contact-us :hover  i {
+    color: white;
+}
+.contact-us :hover  p {
+    color: white;
+}
+.contact-us :hover  h1 {
+    color: white;
+}
+
+.contact-us p{
+    margin-bottom: 40px;
+}
+.contact-us textarea{
+    height: 108px;
+}
+
+
+/* ++++++++++++++++++++++++++STARTY FOOTER ++++++++++++++++++++++ */
+.footer{
+    background: #35383c;
+    color: rgb(216, 212, 212);
+    padding-top: 10px; 
+  }
+  .footer .three-columns a{
+      font-size: 16px;
+      text-decoration: none;
+      color: rgb(216, 212, 212);
+  }
+  .footer .three-columns :hover a{
+      color:white;
+      font-weight: bold ;    
+  }
+  .footer h3 {
+      color: #0895D1;
+      font-weight: bold;
+      letter-spacing: 1px;  /*espace entre les ligne */
+      margin: 10px 0 10px ;
+  }
+  .footer .three-columns{
+      overflow: hidden;
+  }
+  .footer .three-columns li {
+      width: 50%;
+      float: left; /*pour faire trois dans caque ligne (important */
+      padding: 5px 0 ;
+      padding-left: 0;
+  }
+  .footer .sosial{
+      overflow: hidden;
+     margin-top: 16px;
+     margin-bottom: 10px;
+     margin-left: 172px;
+    
+  }
+  .footer .sosial li {
+      float: left;
+      margin-right: 13px;
+     
+  }
+  .footer .copyright{
+      background:  #292c2f;
+      padding: 15px 0px;
+      margin-top: 20px;
+      font-size: 18px;
+  }
+  .footer .copyright span {
+    color: #0895D1;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
